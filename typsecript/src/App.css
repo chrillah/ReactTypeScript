@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+button{
+    background: transparent;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.btn-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 300px;
+}
