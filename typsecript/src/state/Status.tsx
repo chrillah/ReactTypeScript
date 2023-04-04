@@ -1,6 +1,6 @@
 import React from "react";
 type StatusProps = {
-    status : string
+    status : 'loading' | 'success' | 'error'
 }
 function Status(props: StatusProps){
     let message
